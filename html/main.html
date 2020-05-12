@@ -1,0 +1,53 @@
+<html>
+  
+<style type="text/css">
+
+form {
+    display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: groove;
+	font-family: Georgia, serif;
+	padding: 20px;
+}
+body {
+	background-color:powderblue;
+	text-align: center;
+}
+
+h1 {
+	padding-top: 15px;
+	color: blue;
+	font-weight: bold;
+	font-family: Georgia, serif;
+	
+}
+
+a, b, c  {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+</style>
+  
+<body>
+<h1>Medicine Stock Check</h1><br>
+  
+<form action="/main.php" method="get">
+  <label class= "a" for="id">Medicine ID:</label>
+  <input class= "a" type="number" id="id" name="id"><br>
+  <label class= "b" for="abbrev">Medicine Abbrev.:</label>
+  <input class= "b" type="text" id="abbrev" name="abbrev"><br>
+  <input class= "c" type="submit" value="Submit">
+</form> 
+</body>
+
+<img src="medical logo.png" alt="Medical Logo" width="250" height="250">
+
+</html>
